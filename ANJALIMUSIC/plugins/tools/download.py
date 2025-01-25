@@ -13,7 +13,7 @@ from yt_dlp import YoutubeDL
 from bs4 import BeautifulSoup
 from pyrogram import Client, filters
 from pyrogram.types import *
-from NEXIOMUSIC import app
+from ANJALIMUSIC import app
 
 # ------------------------------------------------------------------------------- #
 
