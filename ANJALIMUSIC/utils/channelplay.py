@@ -1,5 +1,5 @@
-from NEXIOMUSIC import app
-from NEXIOMUSIC.utils.database import get_cmode
+from ANJALIMUSIC import app
+from ANJALIMUSIC.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
