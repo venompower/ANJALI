@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from ANJALIMUSIC import YouTube, app
-from ANJALIMUSIC.core.call import SUHANI
+from ANJALIMUSIC.core.call import ANJALI
 from ANJALIMUSIC.misc import SUDOERS, db
 from ANJALIMUSIC.utils.database import (
     get_active_chats,
