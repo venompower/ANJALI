@@ -123,9 +123,9 @@ async def del_back_playlist(client, CallbackQuery, _):
                 CallbackQuery.from_user.id
                 in upvoters[chat_id][CallbackQuery.message.id]
             ):
-                await CallbackQuery.answer(_["admin_70"], show_alert=True)
+                await CallbackQuery.answer(_["admin_38"], show_alert=True)
             else:
-                await CallbackQuery.answer(_["admin_71"], show_alert=True)
+                await CallbackQuery.answer(_["admin_39"], show_alert=True)
             upl = InlineKeyboardMarkup(
                 [
                     [
@@ -136,7 +136,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     ]
                 ]
             )
-            await CallbackQuery.answer(_["admin_72"], show_alert=True)
+            await CallbackQuery.answer(_["admin_40"], show_alert=True)
             return await CallbackQuery.edit_message_reply_markup(reply_markup=upl)
     else:
         is_non_admin = await is_nonadmin_chat(CallbackQuery.message.chat.id)
