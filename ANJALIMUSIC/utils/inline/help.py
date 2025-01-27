@@ -10,7 +10,7 @@ def help_pannel(_, START: Union[bool, int] = None):
     second = [
         InlineKeyboardButton(
             text=_["BACK_PAGE"],
-            callback_data="mbot_cb",
+            callback_data="fmbot_cb",
         ),
         InlineKeyboardButton(
             text=_["BACK_BUTTON"],
