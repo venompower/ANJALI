@@ -92,7 +92,7 @@ class BUTTONS(object):
     
     SBUTTON = [
         [
-            InlineKeyboardButton("ϻυsɪᴄ", callback_data="MUSIC_CP"),
+            InlineKeyboardButton("ϻυsɪᴄ", callback_data="settingsback_helper"),
             InlineKeyboardButton("ϻᴧηᴧɢєϻєηᴛ", callback_data="MANAGEMENT_CP"),
         ],
         [
