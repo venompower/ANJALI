@@ -108,9 +108,9 @@ async def gen_qthumb(vidid):
         enhancer = ImageEnhance.Brightness(background)
         background = enhancer.enhance(0.6)
         draw = ImageDraw.Draw(background)
-        arial = ImageFont.truetype("assets/font2.ttf", 30)
-        font = ImageFont.truetype("assets/font.ttf", 30)
-        title_font = ImageFont.truetype("assets/font3.ttf", 45)
+        arial = ImageFont.truetype("ANJALIMUSIC/assets/font2.ttf", 30)
+        font = ImageFont.truetype("ANJALIMUSIC/assets/font.ttf", 30)
+        title_font = ImageFont.truetype("ANJALIMUSIC/assets/font3.ttf", 45)
 
         circle_thumbnail = crop_center_circle(youtube, 400, 20)
         circle_thumbnail = circle_thumbnail.resize((400, 400))
@@ -146,7 +146,7 @@ async def gen_qthumb(vidid):
         draw.text((text_x_position, 400), "00:00", (255, 255, 255), font=arial)
         draw.text((1080, 400), duration, (255, 255, 255), font=arial)
 
-        play_icons = Image.open("ANJALIMUSIC/assets/20241227_105436.png"")
+        play_icons = Image.open("ANJALIMUSIC/assets/play_icons.png"")
         play_icons = play_icons.resize((580, 62))
         background.paste(play_icons, (text_x_position, 450), play_icons)
 
@@ -201,9 +201,9 @@ async def gen_thumb(videoid):
     enhancer = ImageEnhance.Brightness(background)
     background = enhancer.enhance(0.6)
     draw = ImageDraw.Draw(background)
-    arial = ImageFont.truetype("assets/font2.ttf", 30)
-    font = ImageFont.truetype("assets/font.ttf", 30)
-    title_font = ImageFont.truetype("assets/font3.ttf", 45)
+    arial = ImageFont.truetype("ANJALIMUSIC/assets/font2.ttf", 30)
+    font = ImageFont.truetype("ANJALIMUSIC/assets/font.ttf", 30)
+    title_font = ImageFont.truetype("ANJALIMUSIC/assets/font3.ttf", 45)
 
     circle_thumbnail = crop_center_circle(youtube, 400, 20)
     circle_thumbnail = circle_thumbnail.resize((400, 400))
@@ -244,7 +244,7 @@ async def gen_thumb(videoid):
     draw.text((text_x_position, 400), "00:00", (255, 255, 255), font=arial)
     draw.text((1080, 400), duration, (255, 255, 255), font=arial)
 
-    play_icons = Image.open("assets/play_icons.png")
+    play_icons = Image.open("ANJALIMUSIC/assets/play_icons.png")
     play_icons = play_icons.resize((580, 62))
     background.paste(play_icons, (text_x_position, 450), play_icons)
 
