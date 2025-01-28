@@ -54,7 +54,7 @@ async def _clear_(chat_id):
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
-            name="DnsString1",
+            name="ANJALIString1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -64,7 +64,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot2 = Client(
-            name="DnsString2",
+            name="ANJALIString2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -74,7 +74,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot3 = Client(
-            name="DnsString3",
+            name="ANJALIString3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -84,7 +84,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot4 = Client(
-            name="DnsString4",
+            name="ANJALIString4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -94,7 +94,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot5 = Client(
-            name="DnsString5",
+            name="ANJALIString5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -536,7 +536,7 @@ class Call(PyTgCalls):
                         )
                     except FloodWait as e:
                         await asyncio.sleep(e.value)
-               db[chat_id][0]["mystic"] = run
+                    db[chat_id][0]["mystic"] = run
                     db[chat_id][0]["markup"] = "stream"
 
     async def ping(self):
@@ -629,4 +629,4 @@ class Call(PyTgCalls):
                 autoend[chat_id] = {}
 
 
-Dns = Call()
+ANJALI = Call()
