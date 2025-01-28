@@ -16,11 +16,6 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from strings import get_string
-from ANJALIMUSIC import LOGGER, YouTube, app
-from ANJALIMUSIC.misc import db
-from ANJALIMUSIC.utils.database import (
-    import config
 from ANJALIMUSIC import LOGGER, YouTube, app
 from ANJALIMUSIC.misc import db
 from ANJALIMUSIC.utils.database import (
