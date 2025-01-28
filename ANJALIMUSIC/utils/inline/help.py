@@ -6,14 +6,13 @@ from ANJALIMUSIC import app
 
 
 def help_pannel(_, START: Union[bool, int] = None):
-    first = [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")]
+    first = [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=f"close")]
     second = [
-        InlineKeyboardButton(text=_["BACK_PAGE"],callback_data=f"mbot_cb",),
-            
-        InlineKeyboardButton(text=_["BACK_BUTTON"], callback_data="settingsback_helper",),
-        
-        InlineKeyboardButton(text=_["NEXT_PAGE"],callback_data=f"mbot_cb",),
-       ]
+        InlineKeyboardButton(
+            text=_["BACK_BUTTON"],
+            callback_data=f"settingsback_helper",
+        ),
+    ]
     mark = second if START else first
     upl = InlineKeyboardMarkup(
         [
