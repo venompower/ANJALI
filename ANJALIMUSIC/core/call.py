@@ -20,12 +20,14 @@ from strings import get_string
 from ANJALIMUSIC import LOGGER, YouTube, app
 from ANJALIMUSIC.misc import db
 from ANJALIMUSIC.utils.database import (
+    import config
+from ANJALIMUSIC import LOGGER, YouTube, app
+from ANJALIMUSIC.misc import db
+from ANJALIMUSIC.utils.database import (
     add_active_chat,
     add_active_video_chat,
-    get_audio_bitrate,
     get_lang,
     get_loop,
-    get_video_bitrate,
     group_assistant,
     is_autoend,
     music_on,
