@@ -3,18 +3,17 @@ from datetime import datetime, timedelta
 from typing import Union
 
 from pyrogram import Client
-from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardMarkup
-from pytgcalls import PyTgCalls, filters
-from pytgcalls.exceptions import AlreadyJoinedError, NoActiveGroupCall
-from pytgcalls.types import (
-    ChatUpdate,
-    GroupCallParticipant,
-    MediaStream,
-    StreamAudioEnded,
-    StreamVideoEnded,
-    Update,
+from pytgcalls import PyTgCalls, StreamType
+from pytgcalls.exceptions import (
+    AlreadyJoinedError,
+    NoActiveGroupCall,
+    TelegramServerError,
 )
+from pytgcalls.types import Update
+from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
+from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQualityVideo
+from pytgcalls.types.stream import StreamAudioEnded
 
 import config
 from strings import get_string
