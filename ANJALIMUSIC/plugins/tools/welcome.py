@@ -3,6 +3,7 @@ from PIL import ImageDraw, Image, ImageFont, ImageChops
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
+from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
 from ANJALIMUSIC import app
 from ANJALIMUSIC.utils.ANJALIBAN import admin_filter
 from PIL import Image, ImageDraw, ImageFont
