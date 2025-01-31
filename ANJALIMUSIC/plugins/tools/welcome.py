@@ -91,14 +91,20 @@ async def greet_group(_, member: ChatMemberUpdated):
             member.chat.id,
             photo=welcomeimg,
             caption=f"""
-Wᴇʟᴄᴏᴍᴇ Tᴏ {member.chat.title}
-╭───── • ◆ • ─────╮
-  Nᴀᴍᴇ ✧ {user.mention}
-  Iᴅ ✧ {user.id}
-  Usᴇʀɴᴀᴍᴇ ✧ @{user.username}
-╰───── • ◆ • ─────╯
+**❅───✦ ᴡєʟᴄσϻє ᴛσ ✦───❅**
+   {member.chat.title}
+▰▰▰▰▰▰▰▰▰▰▰▰▰
+**➻ ηᴧϻє »** {user.mention}
+**➻ ɪᴅ »** `{user.id}`
+**➻ υ_ηᴧϻє »** @{user.username}
+▰▰▰▰▰▰▰▰▰▰▰▰▰
+**➻ ᴛσᴛᴧʟ ϻєϻʙєʀs »** {count}
+**❅─────✧❅✦❅✧─────❅**
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/TheAnjaliMusicBot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([
+                
+                [InlineKeyboardButton(f"{('๏ ᴋɪᴅηᴧᴘ ϻє ʙᴧʙʏ ๏')}", url=f"https://t.me/{app.username}?startgroup=true")],
+                [InlineKeyboardButton(f"{('๏ ᴠɪєᴡ ɴєᴡ ϻєϻʙєʀ ๏')}", url=f"tg://openmessage?user_id={user.id}")]])
         )
     except Exception as e:
         LOGGER.error(e)
