@@ -176,7 +176,7 @@ async def mb_plugin_button(client, CallbackQuery):
 
 @app.on_callback_query(filters.regex("MAIN_CP") & ~BANNED_USERS)
 async def helper_cb(client, CallbackQuery):
-    await CallbackQuery.edit_message_text(Helper.HELP_SACHIN, reply_markup=InlineKeyboardMarkup(BUTTONS.SBUTTON))
+    await CallbackQuery.edit_message_text(Helper.HELP_ANJALI, reply_markup=InlineKeyboardMarkup(BUTTONS.SBUTTON))
 
         
 @app.on_callback_query(filters.regex('MAIN_BACK'))      
