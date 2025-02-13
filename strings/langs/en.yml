@@ -220,8 +220,8 @@ queue_6 : "<b>❖ ᴅυʀᴧᴛɪση :</b> υηᴋησᴡη ᴅυʀᴧᴛɪση
 queue_7 : "\n❖ ᴄʟɪᴄᴋ ση ʙυᴛᴛση ʙєʟσᴡ ᴛσ ɢєᴛ ᴡʜσʟє ǫυєυєᴅ ʟɪsᴛ."
 queue_8 : "❖ <b>{0} ᴘʟᴧʏєʀ</b>\n\n❖ <b>sᴛʀєᴧϻɪηɢ :</b> {1}\n\n❖ <b>sᴛʀєᴧϻ ᴛʏᴘє :</b> {2}\n❖ <b>ʀєǫυєsᴛєᴅ ʙʏ :</b> {3}\n❖ {4}"
 
-stream_1 : "<b>❖ ᴄυᴛє [ᴧηᴊᴧʟɪ](https://t.me/TheAnjaliMusicBot) ση sᴛʀєᴧϻɪηɢ ⏤͟͞●</b>\n\n<b>❍ ᴛɪᴛʟє ➥</b> <a href={0}>{1}</a> \n<b>❍ ᴛɪϻє ➥</b> {2} ϻɪηυᴛєs \n<b>❍ ʙʏ ➥</b> {3} \n\n<b>❖ ϻᴧᴅє ʙʏ  ➛ [ᴧηᴊᴧʟɪ ηєᴛᴡσʀᴋ](https://t.me/ANJALINETWORK) </b>"
-stream_2 : "<b>❖ ᴄυᴛє [ᴧηᴊᴧʟɪ](https://t.me/TheAnjaliMusicBot) ση sᴛʀєᴧϻɪηɢ ⏤͟͞●</b>\n\n<b>❍ sᴛʀєᴧϻ ᴛʏᴘє ➥</b> ʟɪᴠєsᴛʀєᴧϻ [ υʀʟ ]\n<b>❍ ʙʏ ➥</b> {0}"
+stream_1 : "<blockquote>❖<b> ᴄυᴛє [ᴧηᴊᴧʟɪ](https://t.me/TheAnjaliMusicBot) ση sᴛʀєᴧϻɪηɢ ⏤͟͞●</b>\n\n<b>❍ ᴛɪᴛʟє ➥</b> <a href={0}>{1}</a> \n<b>❍ ᴛɪϻє ➥</b> {2} ϻɪηυᴛєs \n<b>❍ ʙʏ ➥</b> {3} \n\n<b>❖ ϻᴧᴅє ʙʏ  ➛ [ᴧηᴊᴧʟɪ ηєᴛᴡσʀᴋ](https://t.me/ANJALINETWORK) </blockquote>\n"
+stream_2 : "<blockquote>❖<b> ᴄυᴛє [ᴧηᴊᴧʟɪ](https://t.me/TheAnjaliMusicBot) ση sᴛʀєᴧϻɪηɢ ⏤͟͞●</b>\n\n<b>❍ sᴛʀєᴧϻ ᴛʏᴘє ➥</b> ʟɪᴠєsᴛʀєᴧϻ [ υʀʟ ]\n<b>❍ ʙʏ ➥</b> {0}</blockquote>\n"
 
 CLOSE_BUTTON  : "⌯ ᴄʟσsє ⌯"
 BACK_BUTTON : "⌯ ʙᴧᴄᴋ ⌯"
